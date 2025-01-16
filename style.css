@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Agu+Display&family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 5px 20px;
+  /* background : linear-gradient(45deg, #efc2ff, #1207ff); */
+  /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    background-image: linear-gradient(to left top, #ffb703, #ffc900, #ffdb00, #fced00, #f7ff0c);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+
+#container {
+  text-align: center;
+  padding: 20px;
+  background: transparent;
+  border-radius: 8px;
+  /* width: 100%; */
+}
+
+#appName {
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-family: "Merriweather", serif;
+  font-style: italic;
+  font-weight: 900;
+  font-size: xxx-large;
+}
+
+
+h1 {
+  font-size: 24px;
+  color: white;
+  margin-bottom: 20px;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  width: 25%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+#name {
+  font-size: 32px;
+  font-weight: 800;
+  color: black;
+}
+
+#temp {
+  font-size: 45px;
+  font-weight: 300;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #0001ff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ed0000;
+}
+
+.error {
+  color: red;
+}
+
+.stats {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: end;
+  max-width: 80%;
+}
+
+@media (max-width : 850px) {
+  .stats {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+    max-width: 100%;
+  }
+
+  body {
+    height: 180vh;
+  }
+}
+
+@media (max-width : 450px){
+  #name {
+    font-size: 25px;
+  }
+  .item{
+    font-size: 20px;
+  } 
+  #temp {
+    font-size: 40px;
+  }
+}
+
+@media (max-width : 360px){
+  #appName {
+    font-size: xx-large;
+  }
+  #name {
+    font-size: 20px;
+  }
+  .item{
+    font-size: 15px;
+  } 
+  #temp {
+    font-size: 30px;
+  }
+}
