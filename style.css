@@ -4,11 +4,7 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 5px 20px;
-  /* background : linear-gradient(45deg, #efc2ff, #1207ff); */
-  /* display: flex;
-    justify-content: center;
-    align-items: center; */
-    background-image: linear-gradient(to left top, #ffb703, #ffc900, #ffdb00, #fced00, #f7ff0c);
+  background: url("https://img.freepik.com/premium-vector/sky-clouds-design-with-flat-cartoon-poster-flyers-postcards-web-banners_771576-58.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
@@ -20,7 +16,6 @@ body {
   padding: 20px;
   background: transparent;
   border-radius: 8px;
-  /* width: 100%; */
 }
 
 #appName {
@@ -48,7 +43,7 @@ input[type="text"] {
   padding: 10px;
   margin: 10px 0;
   border: 1px solid #ccc;
-  border-radius: 4px;
+  border-radius: 25px;
 }
 
 #name {
@@ -95,7 +90,7 @@ button:hover {
   }
 
   body {
-    height: 180vh;
+    height: 120vh;
   }
 }
 
