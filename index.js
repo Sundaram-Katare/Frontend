@@ -70,7 +70,7 @@ weatherButton.addEventListener("click", async function (event) {
         feelsLike.innerHTML = `Feels Like : ${weatherData.feelsLike} <i class="fa-solid fa-temperature-full" style="color: #FFD43B; height:20px; background-color: black; padding : 10px; border-radius : 5px; "></i>`
 
         if (temperature < 0) {
-            document.body.style.backgroundImage = "url('https://png.pngtree.com/background/20220730/original/pngtree-morning-in-winter-mountains-flat-color-vector-illustration-picture-image_1881242.jpg')";
+            document.body.style.backgroundImage = "url('./Images/snowTemp.jpg')";
             document.body.style.backgroundSize = "cover";
             document.body.style.backgroundRepeat = "no-repeat";
             document.body.style.color = "black";
@@ -84,7 +84,7 @@ weatherButton.addEventListener("click", async function (event) {
             });
 
         } else if (temperature < 14) {
-            document.body.style.backgroundImage = "url('https://usagif.com/wp-content/uploads/gifs/starfall-gif-46.gif')";
+            document.body.style.backgroundImage = "url('./Images/lowTemp.gif')";
             document.body.style.backgroundSize = "cover";
             document.body.style.backgroundRepeat = "no-repeat";
             document.body.style.color = "white";
@@ -95,7 +95,7 @@ weatherButton.addEventListener("click", async function (event) {
             })
 
         } else if (temperature < 25) {
-            document.body.style.backgroundImage = "url('https://www.joshmorony.com/media/2016/05/phaser-fog.gif')";
+            document.body.style.backgroundImage = "url('./Images/moderateTemp.gif')";
             document.body.style.backgroundSize = "cover";
             document.body.style.backgroundRepeat = "no-repeat";
             document.body.style.color = "black";
@@ -105,7 +105,7 @@ weatherButton.addEventListener("click", async function (event) {
                 individualItem.style.color = "white";
             })
         } else if (temperature < 35) {
-            document.body.style.backgroundImage = "url('https://cdn.dribbble.com/users/215810/screenshots/2747402/media/6781b8939832022565f0c127dd192c7f.gif')";
+            document.body.style.backgroundImage = "url('./Images/hotTemp.gif')";
             document.body.style.backgroundSize = "cover";
             document.body.style.backgroundRepeat = "no-repeat";
             document.body.style.color = "black";
